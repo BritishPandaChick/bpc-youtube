@@ -1,0 +1,70 @@
+/* === Global Variables ===*/
+/*== Base Styles ==*/
+body {
+  background-color: #fbfcfe;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  width: 100%;
+  margin: 0 auto; }
+
+/*== Header ==*/
+header {
+  background-color: #017ac8; }
+  header .navbar-brand {
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    color: #fbfcfe; }
+  header ul li {
+    font-weight: bold; }
+  header ul a {
+    color: #fbfcfe;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif; }
+  header ul a:hover {
+    color: #8b929c; }
+
+/*== Banner ==*/
+#banner {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #263960;
+  color: #fbfcfe; }
+  #banner h2 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 52px; }
+    #banner h2 span {
+      font-family: "Oswald", sans-serif; }
+  #banner h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px; }
+
+/*== Footer ==*/
+.contact {
+  padding: 15px 0;
+  width: 100%; }
+  .contact h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    padding: 15px 0; }
+  .contact p {
+    font-size: 18px;
+    padding-left: 20px; }
+    .contact p i {
+      padding-right: 10px; }
+  .contact li {
+    padding: 10px 0; }
+    .contact li a {
+      color: #263960; }
+    .contact li a:hover {
+      color: #8b929c; }
+
+.copyright {
+  width: 100%;
+  background-color: #017ac8;
+  font-size: 18px;
+  color: #fbfcfe;
+  padding: 15px 0; }
+
+/*# sourceMappingURL=mobile.css.map */
