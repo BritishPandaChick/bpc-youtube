@@ -12,6 +12,8 @@ body {
 /*== Header ==*/
 header {
   background-color: #017ac8;
+  width: 100%;
+  position: fixed;
 }
 header .navbar-brand {
   font-size: 35px;
@@ -33,7 +35,7 @@ header ul a:hover {
 /*== Banner ==*/
 #banner {
   width: 100%;
-  padding: 80px 0;
+  padding: 120px 0;
   background-color: #263960;
   color: #fbfcfe;
 }
@@ -41,6 +43,7 @@ header ul a:hover {
   font-size: 30px;
   font-family: "Open Sans", sans-serif;
   line-height: 52px;
+  padding-top: 50px;
 }
 #banner h2 span {
   font-family: "Oswald", sans-serif;

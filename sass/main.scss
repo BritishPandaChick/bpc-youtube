@@ -22,6 +22,8 @@ body {
 /*== Header ==*/
 header {
     background-color: $blue;
+    width: 100%;
+    position: fixed;
 
     .navbar-brand {
         font-size: 35px;
@@ -49,7 +51,7 @@ header {
 /*== Banner ==*/
 #banner {
     width: 100%;
-    padding: 80px 0;
+    padding: 120px 0;
     background-color: $darkblue;
     color: $white;
 
@@ -57,6 +59,7 @@ header {
         font-size: 30px;
         font-family: $main-font;
         line-height: 52px;
+        padding-top: 50px;
 
         span {
             font-family: $headline-font;

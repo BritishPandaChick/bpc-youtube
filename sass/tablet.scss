@@ -22,6 +22,8 @@ body {
 /*== Header ==*/
 header {
     background-color: $blue;
+    position: fixed;
+    width: 100%;
 
     .navbar-brand {
         font-size: 25px;

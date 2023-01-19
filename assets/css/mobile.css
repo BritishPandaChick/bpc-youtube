@@ -12,6 +12,8 @@ body {
 /*== Header ==*/
 header {
   background-color: #017ac8;
+  position: fixed;
+  width: 100%;
 }
 header .navbar-brand {
   font-size: 25px;
