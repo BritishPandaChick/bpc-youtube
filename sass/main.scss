@@ -69,17 +69,6 @@ header {
     }
 }
 
-/*== Latest ==*/
-#latest {
-    width: 100%;
-    padding: 40px 0;
-
-    h3 {
-        font-size: 25px;
-        font-family: $headline-font;
-    }
-}
-
 /*== About ==*/
 #about {
     width: 100%;
@@ -94,10 +83,15 @@ header {
         line-height: 32px;
         padding: 15px 0;
     }
+
+    li {
+        line-height: 32px;
+        padding: 15px 0;
+    }
 }
 
-/*== Videos ==*/
-#past {
+/*== Rules ==*/
+#rules {
     width: 100%;
     padding: 40px 0;
 
@@ -106,52 +100,38 @@ header {
         font-family: $headline-font;
     }
 
-    h4 {
-        font-size: 20px;
-        font-family: $headline-font;
+    p {
+        line-height: 32px;
+        padding: 15px 0;
+    }
+
+    li {
+        line-height: 32px;
+        padding: 15px 0;
     }
 }
 
 /*== Footer ==*/
-.contact {
-    padding: 15px 0;
-    width: 100%;
-    border: 2px solid $blue;
-
-    h4 {
-        font-family: $headline-font;
-        font-size: 25px;
-        padding: 15px 0;
-    }
-
-    p {
-        font-size: 16px;
-        padding-left: 20px;
-        padding-top: 20px;
-
-        i {
-            padding-right: 10px;
-        }
-    }
-
-    li {
-        padding: 10px 0;
-
-        a {
-            color: $darkblue;
-        }
-
-        a:hover {
-            color: $hover-color;
-        }
-    }
-}
-
-
 .copyright {
     width: 100%;
     background-color: $blue;
     font-size: 16px;
     color: $white;
     padding: 15px 0;
+
+    .nav {
+        padding-left: 475px;
+
+        li {
+            padding: 10px 0;
+    
+            a {
+                color: $white;
+            }
+    
+            a:hover {
+                color: $hover-color;
+            }
+        }
+    }
 }
